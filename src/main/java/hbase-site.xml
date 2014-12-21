@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>  
+	<property>
+		<name>hbase.zookeeper.property.clientPort</name> 
+		<value>8181</value> 		
+	</property>
+	
+	<property>
+		<name>hbase.zookeeper.quorum</name>   
+		<value>cp01-rdtest-crm-int03.cp01.baidu.com,cp01-rdtest-crm-int07.cp01.baidu.com,cp01-rdtest-crm-int08.cp01.baidu.com</value>
+	</property>
+</configuration>
